@@ -6,6 +6,8 @@
 .container{
     padding: 30px;
     position: relative;
+    font-family: 'Libre Bodoni', serif;
+
 
 }
 .container .contain{
@@ -30,9 +32,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* column-gap: 80px; */
-    /* width: 860px; */
-    /* background-color: brown; */
+  
 }
 .logs{
     width:50px;
@@ -62,7 +62,6 @@ tr img{
     border-radius: 50%;
 }
 th{
-    /* word-spacing: 24px; */
     column-gap: 12px;
     padding: 10px;
 
@@ -82,4 +81,8 @@ footer a:hover{
     color: rgb(32, 60, 61);
     text-align: center;
 
+}
+footer{
+    text-align: right;
+    text-decoration: wavy !important;
 }

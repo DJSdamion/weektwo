@@ -13,6 +13,8 @@ body{
     text-align: center;
     color: #343434;
     margin-left: 32%;
+    font-family: 'Libre Bodoni', serif;
+
 }
 h1{
     font-size: 160px;
@@ -40,9 +42,7 @@ h1{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* column-gap: 80px; */
-    /* width: 860px; */
-    /* background-color: brown; */
+ 
 }
 .logs{
     width:50px;
@@ -72,4 +72,8 @@ footer a:hover{
     text-align: left !important;
     margin-left: 15px !important;
 
+}
+footer{
+    text-align: right;
+    text-decoration: wavy !important;
 }

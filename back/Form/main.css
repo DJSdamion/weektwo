@@ -10,6 +10,8 @@
     padding: 80px;
     border-radius: 20px;
     margin: left;
+    font-family: 'Libre Bodoni', serif;
+
     
 
 }
@@ -17,9 +19,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* column-gap: 80px; */
-    /* width: 860px; */
-    /* background-color: brown; */
+
 }
 .logs{
     width:50px;
@@ -51,5 +51,17 @@ footer a:hover{
     background: #c8e975;
     color: rgb(32, 60, 61);
     text-align: center;
+
+}
+footer{
+    text-align: right;
+    text-decoration: wavy !important;
+}
+.new{
+    word-spacing: 100% !important;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 10px;
+    column-gap: 25px;
 
 }

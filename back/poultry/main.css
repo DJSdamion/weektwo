@@ -6,6 +6,8 @@
 .container{
     padding: 30px;
     position: relative;
+    font-family: 'Libre Bodoni', serif;
+
 
 }
 .container .contain{
@@ -18,7 +20,6 @@
     top: 0;
     left: 0;
     background-image: url(backs.jpg);
-    /* background-size: 100%; */
     background-position: center;
     background-repeat: repeat;
     width: 100%;
@@ -30,9 +31,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* column-gap: 80px; */
-    /* width: 860px; */
-    /* background-color: brown; */
+   
 }
 .logs{
     width:50px;
@@ -85,4 +84,13 @@ footer a:hover{
     color: rgb(32, 60, 61);
     text-align: center;
 
+}
+footer{
+    text-align: right;
+    text-decoration: wavy !important;
+}
+.headd{
+    display: inline;
+    row-gap: 24px;
+    color: #000;
 }
