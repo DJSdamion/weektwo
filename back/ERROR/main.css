@@ -38,6 +38,19 @@ h1{
     background: #c8e975;
     color: black;
 }
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+      
+}
+.cont li{
+    color: #333333;  
+
+}
+.copy{
+    text-align: center;
+}
 /* .logos{
     width: 100%;
     display: grid;

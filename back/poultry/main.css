@@ -68,7 +68,7 @@ th{
 a{
     display: inline;
 }
-footer a{
+/* .footer a{
     text-decoration: none;
     background: #6b0404;
     color: #141414;
@@ -78,16 +78,16 @@ footer a{
     border-radius: 48px;
     font-size: 16px;
 }
-footer a:hover{
+.footer a:hover{
     background: #c8e975;
     color: rgb(32, 60, 61);
     text-align: center;
 
 }
-footer{
+.footer{
     text-align: right;
     text-decoration: wavy !important;
-}
+} */
 .headd{
     display: inline;
     row-gap: 24px;
