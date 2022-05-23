@@ -29,6 +29,7 @@ body{
     font-family: 'Libre Bodoni', serif;
 
 }
+
 .heading {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -165,6 +166,7 @@ ul{
 .copy{
     text-align: center;
 }
+
 .footer a{
     background: #6b0404;
     color: #141414;
