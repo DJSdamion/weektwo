@@ -38,7 +38,7 @@ h1{
     background: #c8e975;
     color: black;
 }
-.logos{
+/* .logos{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -51,7 +51,7 @@ h1{
 }
 .logs img{
     width: 100%;
-}
+} */
 p{
     font-size: larger;
     font-weight: bolder;
@@ -76,4 +76,55 @@ footer a:hover{
 footer{
     text-align: right;
     text-decoration: wavy !important;
+}
+nav{
+    width: 100%;
+    padding: 8px 12px;
+    height: 100px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-centered{
+    justify-content: center;
+}
+
+.navbar-right{
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+.nav-item a{
+   display: inline-block;
+   padding: 8px 16px;
+   text-decoration: none;
+   color:#092357;
+   font-weight: 500;
+}
+
+.nav-item:hover {
+    background-color: #FFCD00;
+}
+
+.active{
+    background-color: #FFCD00;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo-centered{
+    width: 60px;
+    height: 60px;
+    margin: 24px auto;
 }
