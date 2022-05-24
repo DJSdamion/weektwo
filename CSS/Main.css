@@ -26,6 +26,7 @@ body{
     font-size: 18px;
     line-height: 1.5;
     background-image: linear-gradient(125deg,#6a89cc,#c8e975);
+    background-position: 100%;
     font-family: 'Libre Bodoni', serif;
 
 }
