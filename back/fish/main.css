@@ -8,7 +8,6 @@
     position: relative;
     font-family: 'Libre Bodoni', serif;
 
-
 }
 .container .contain{
     position: relative;
@@ -16,11 +15,10 @@
 }
 .container:before{
     content:'';
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top:0;
     left: 0;
-    background-image: url(Seafoods.jpg);
-    background-size: 100%;
+    background-image: url(seafoood.jpg);
     background-position: 100%;
     background-repeat: 100%;
     width: 100%;
@@ -28,19 +26,11 @@
     opacity: .3;
     z-index: 2;
 }
-h1{
-    text-align: center;
-    margin-bottom: 32px;
-    font-weight: bolder;
-    font-size:xx-large;
-    margin-top: 32px;
-    
-}
-.logos{
+/* .logos{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
- 
+   
 }
 .logs{
     width:50px;
@@ -49,6 +39,14 @@ h1{
 }
 .logs img{
     width: 100%;
+} */
+h1{
+    text-align: center;
+    margin-bottom: 32px;
+    font-weight: bolder;
+    font-size:xx-large;
+    margin-top: 32px;
+    
 }
 tr{
     text-align: center;
@@ -62,11 +60,15 @@ tr img{
     border-radius: 50%;
 }
 th{
+    /* word-spacing: 24px; */
     padding: 10px;
 
 
 }
-.footer a{
+a{
+    display: inline;
+}
+/* .footer a{
     text-decoration: none;
     background: #6b0404;
     color: #141414;
@@ -76,15 +78,20 @@ th{
     border-radius: 48px;
     font-size: 16px;
 }
-footer a:hover{
+.footer a:hover{
     background: #c8e975;
     color: rgb(32, 60, 61);
     text-align: center;
 
 }
-footer{
+.footer{
     text-align: right;
     text-decoration: wavy !important;
+} */
+.headd{
+    display: inline;
+    row-gap: 24px;
+    color: #000;
 }
 nav{
     width: 100%;
