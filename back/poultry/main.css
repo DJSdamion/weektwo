@@ -6,6 +6,9 @@
 .container{
     padding: 30px;
     position: relative;
+    background-image: linear-gradient(125deg,#36AE7C,#187498);
+    color: #070707; 
+
     font-family: 'Libre Bodoni', serif;
 
 }
@@ -13,19 +16,19 @@
     position: relative;
     z-index: 5;
 }
-.container:before{
+/* .container:before{
     content:'';
     position: fixed;
     top:0;
     left: 0;
-    background-image: url(backs.jpg);
+    background-image: linear-gradient(125deg,#36AE7C,#187498);
     background-position: 100%;
     background-repeat: 100%;
     width: 100%;
     height: 100%;
     opacity: .3;
     z-index: 2;
-}
+} */
 /* .logos{
     width: 100%;
     display: grid;
@@ -156,6 +159,8 @@ nav{
     grid-template-columns: 1fr 1fr;
     text-align: center;
     text-decoration: none;
+    color: #333333; 
+
       
 }
 .cont li{
