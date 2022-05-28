@@ -4,7 +4,7 @@
 
 }
 .contain{
-    padding: 3px;
+    padding: 30px;
     color: #97C4B8 !important;
 
 }
@@ -38,6 +38,7 @@ body{
     row-gap: 40px;
     margin-top: 44px;
     margin-bottom: 4px;
+    padding: auto;
     /* border: solid blue; */
     background-image: linear-gradient(125deg,#36AE7C,#187498);
     color: #333333;
@@ -82,6 +83,7 @@ h4{
     column-gap: 72px;
     margin-bottom: 32px;
     margin-top: 10px;
+    padding: auto;
     /* border: solid blue; */
     background-image: linear-gradient(125deg,#36AE7C,#187498);
     color: #333333;  
