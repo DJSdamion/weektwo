@@ -7,8 +7,9 @@
     padding: 30px;
     position: relative;
     background: linear-gradient(125deg,#36AE7C,#187498);
-    color: #070707; 
+    color: #333333; 
     font-family: 'Libre Bodoni', serif;
+    font-weight: 700;
 
 
 }
@@ -140,6 +141,7 @@ nav{
     margin: 24px auto;
 }
 .cont{
+    color: #333333;
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
@@ -150,6 +152,8 @@ nav{
     color: #333333; 
     text-decoration: none; 
     list-style-type: none;
+    font-weight: 600; 
+
 
 }
 .copy{
