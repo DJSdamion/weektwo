@@ -117,16 +117,16 @@ nav{
    display: inline-block;
    padding: 8px 16px;
    text-decoration: none;
-   color:#092357;
+   color:#333333;
    font-weight: 700;
 }
 
 .nav-item:hover {
-    background-color: #FFCD00;
+    background-color: #187498;
 }
 
 .active{
-    background-color: #FFCD00;
+    background-color: #187498;
 }
 .logo{
     width: 60px;
