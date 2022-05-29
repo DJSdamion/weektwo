@@ -100,7 +100,7 @@ ul{
 }
 .beefs{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 32px;
     column-gap: -1px;
     margin-left: auto;
@@ -148,7 +148,7 @@ margin-left: 24px;
 } */
 .Fish{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 32px;
     max-width: 450%;
     max-height: 450%;
@@ -156,7 +156,7 @@ margin-left: 24px;
 }
 .Veges{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 32px;
     column-gap: 1px;
     row-gap: 1px
@@ -164,13 +164,13 @@ margin-left: 24px;
 }
 .Liquor{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 32px;
     
 }
 .Flour{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 32px;
 
 }
