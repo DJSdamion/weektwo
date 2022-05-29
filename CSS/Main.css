@@ -66,7 +66,10 @@ h2 {
 }
 h3{
   color: #333333; 
-  margin-left: 24px; 
+  margin-left: 40%;
+  margin-bottom: 24px;
+  text-decoration: underline; 
+  /* text-align: center; */
 }
 h4{
     color: #333333;  
@@ -226,7 +229,7 @@ img{
     box-shadow: 0 0 20px 2px #1d0553;
     animation: beefs 5s infinite;
     margin-left: 50px;
-    margin-top: 14px;
+    /* margin-top: 10px; */
 
 }
 img:hover{
