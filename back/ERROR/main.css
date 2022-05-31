@@ -25,6 +25,17 @@ h1{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+h2{
+    font-size: 20px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 12px;
+    background: url(/back/error/galaxy.gif) center no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
 .container a{
     text-decoration: none;
     background: #343434;
