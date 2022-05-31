@@ -229,7 +229,7 @@ img{
     box-shadow: 0 0 20px 2px #1d0553;
     animation: beefs 5s infinite;
     margin-left: 50px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     /* margin-top: 10px; */
 
 }
