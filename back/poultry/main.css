@@ -58,17 +58,21 @@ tr{
 
 }
 tr img{
-    width: 50%;
-    height: 50px;
-    border-radius: 50%;
-   
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+    transition: transform .2s; 
 }
-td img{
+tr img:hover{
+    transform: scale(3.6);
+    /* z-index: 2; */
+}
+/* img{
     transition: transform .1s;
 }
-td img:hover{
-    transform: scale(1.);
-}
+img:hover{
+    transform: scale(1.1);
+} */
 th{
     /* word-spacing: 24px; */
     padding: 10px;

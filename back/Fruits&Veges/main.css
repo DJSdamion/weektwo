@@ -63,6 +63,11 @@ tr img{
     width: 50%;
     height: 50px;
     border-radius: 50%;
+    transition: transform .2s; 
+}
+tr img:hover{
+    transform: scale(3.6);
+    /* z-index: 2; */
 }
 th{
     column-gap: 12px;
