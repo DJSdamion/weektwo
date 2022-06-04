@@ -58,10 +58,10 @@ tr{
 
 }
 tr img{
-    width: 50%;
-    height: 50px;
-    border-radius: 50%;
-    transition: transform .2s; 
+    width: 60%;
+    height: 60px;
+    border-radius: 60%;
+    transition: transform .1s; 
 }
 tr img:hover{
     transform: scale(3.6);
