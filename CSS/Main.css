@@ -197,21 +197,24 @@ margin-left: 24px;
 }
 
 .footer a{
-    background: #6b0404;
+    background: #36AE7C;
     color: #141414;
-    color: rgb(222, 230, 236);
+    color: #333333;
     padding: 12px 24px;
     display: inline-block;
     border-radius: 48px;
     font-size: 16px;
     box-shadow: 0 0 20px 2px #3a0331;
     margin-top: 10px;
+    font-weight: 600;
 
 }
 footer a:hover{
     background: #c8e975;
-    color: rgb(32, 60, 61);
+    color: #141414;
     text-align: center;
+    font-weight: 600;
+
 
 
 }
